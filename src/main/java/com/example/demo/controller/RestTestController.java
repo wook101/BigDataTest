@@ -20,7 +20,7 @@ import java.net.URI;
 public class RestTestController {
 
     @GetMapping("/")
-    public String home(){
+    public ResponseEntity home(){
         /*
         1.RestTempate객체 생성
         2.URI클래스의 create메소드의 인자로 openApi주소입력
@@ -40,7 +40,7 @@ public class RestTestController {
             JSONObject CardSubwayStatsNew = (JSONObject) jsonObject.get("CardSubwayStatsNew");  //Object to JSONObject
             JSONArray jsonArray = (JSONArray) CardSubwayStatsNew.get("row");                    //Object to JSONArray
             System.out.println("2.CardSubwayStatsNew: "+CardSubwayStatsNew.toString());
-
+            System.out.println("3.row: ");
             for (Object idx : jsonArray){
                 System.out.println(idx.toString());
             }
@@ -51,7 +51,7 @@ public class RestTestController {
             e.printStackTrace();
         }
 
-        return "";
+        return response;
     }
 
 }
