@@ -39,10 +39,9 @@ public class JsonFileParsingController {
         JSONObject CardSubwayStatsNewObject = (JSONObject) jsonObject.get("CardSubwayStatsNew");
         JSONArray row = (JSONArray) CardSubwayStatsNewObject.get("row");
         for (Object idx : row){
-            System.out.println(idx);
             Gson gson = new Gson();
             SubwayStat subwayStat = gson.fromJson(idx.toString(),SubwayStat.class);
-            /*
+            /* [insert]
             mapper.insertSubwayOnOff(subwayStat.getRIDE_PASGR_NUM(),
                     subwayStat.getUSE_DT(),
                     subwayStat.getLINE_NUM(),
