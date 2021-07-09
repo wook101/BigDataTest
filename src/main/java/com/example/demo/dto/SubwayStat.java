@@ -5,6 +5,8 @@ import lombok.Setter;
 import lombok.ToString;
 
 @ToString
+@Getter
+@Setter
 public class SubwayStat {
     private String USE_DT;
     private String LINE_NUM;

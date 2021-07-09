@@ -48,7 +48,6 @@ public class RestTestController {
             System.out.println("3.row: ");
             Gson gson = new Gson();
             for (Object idx : jsonArray){
-                //System.out.println(idx.toString());
                 SubwayStat subwayStatDto = gson.fromJson(idx.toString(), SubwayStat.class);
                 System.out.println(subwayStatDto.toString());
             }
