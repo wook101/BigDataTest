@@ -1,0 +1,91 @@
+{
+  "CardSubwayStatsNew": {
+    "list_total_count": 603,
+    "RESULT": {
+      "MESSAGE": "정상 처리되었습니다",
+      "CODE": "INFO-000"
+    },
+    "row": [
+      {
+        "RIDE_PASGR_NUM": 41854.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "서울역",
+        "ALIGHT_PASGR_NUM": 40070.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 8097.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "동묘앞",
+        "ALIGHT_PASGR_NUM": 8459.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 21905.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "시청",
+        "ALIGHT_PASGR_NUM": 22301.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 36208.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "종각",
+        "ALIGHT_PASGR_NUM": 35430.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 25002.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "종로3가",
+        "ALIGHT_PASGR_NUM": 22518.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 22764.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "종로5가",
+        "ALIGHT_PASGR_NUM": 22786.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 11181.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "동대문",
+        "ALIGHT_PASGR_NUM": 10597.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 14121.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "신설동",
+        "ALIGHT_PASGR_NUM": 13751.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 17207.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "제기동",
+        "ALIGHT_PASGR_NUM": 17555.0,
+        "WORK_DT": "20210704"
+      },
+      {
+        "RIDE_PASGR_NUM": 19832.0,
+        "USE_DT": "20210701",
+        "LINE_NUM": "1호선",
+        "SUB_STA_NM": "청량리(서울시립대입구)",
+        "ALIGHT_PASGR_NUM": 19926.0,
+        "WORK_DT": "20210704"
+      }
+    ]
+  }
+}
